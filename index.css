@@ -1,0 +1,39 @@
+/*index.css*/
+body {
+	background-color:#FFF5EE;
+	display:grid;
+	min-height:100%;
+	grid-template-rows:125px 40px auto;
+	grid-template-columns:100px 1fr 1fr 100px;
+}
+header {
+	font-family:Verdana;
+	grid-column:2 / span 2;
+}
+img {
+	padding-top:20px;
+	margin:auto;
+	grid-column:3 / span 1;
+	grid-row:3 / span 1;
+	width:400px;height:auto;
+}
+nav {
+	display:flex;
+	background-color:#778899;
+	text-align:left;
+	grid-column:2 / span 2;
+	grid-row:2 / span 1; 
+}
+a {
+	color:white;
+	text-decoration:none;
+	padding: 10px;
+}
+a:hover {
+	color:#DCDCDC;
+}
+main {
+	font-family:Verdana;
+	grid-column:2 / span 1;
+	grid-row:3 / span 1;
+}
