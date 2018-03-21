@@ -1,0 +1,29 @@
+/*frame.css*/
+
+header {
+  font-family:Verdana;
+}
+img {
+  padding-top:20px;
+  margin:auto;
+  width:400px;height:auto;
+}
+nav {
+  display:flex;
+  background-color:#778899;
+  text-align:left;
+}
+a {
+  color:white;
+  text-decoration:none;
+  padding: 10px;
+}
+a:hover {
+  color:#DCDCDC;
+}
+main {
+  display:grid;
+  grid-template-rows:auto;
+  grid-template-columns: 1fr 1fr;
+  font-family:Verdana;
+}
